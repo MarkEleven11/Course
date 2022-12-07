@@ -34,7 +34,7 @@ public class Methods {
     public static int maxSalary(Employee[] employees) {
         int count = 0;
         int max = employees[count].getSalary();
-        for (count++; count > employees.length; count++) {
+        for (count++; count < employees.length; count++) {
             if (employees[count].getSalary() > max) {
                 max = employees[count].getSalary();
             }
