@@ -43,6 +43,7 @@ public class Methods {
         return count;
     }
 
+    ///Расчет средней заработной платы.
     public static int aveSalary(Employee[] employees) {
         int average = 0;
         for (int i = 0; i < employees.length; i++) {
@@ -51,5 +52,4 @@ public class Methods {
         System.out.println(average);
         return average;
     }
-
 }
